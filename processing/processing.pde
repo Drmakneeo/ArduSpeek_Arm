@@ -8,8 +8,8 @@ String port = "COM3";
 int baudrate = 9600;
 
 // Voce init
-String initStr = "C:/Users/Admin/Desktop/speechArm/processing/lib";
-String initGram = "file:/C:/Users/Admin/Desktop/speechArm/processing/lib/gram";
+String initStr = "C:/Users/Admin/Desktop/ArduSpeek_Arm/processing/lib";
+String initGram = "file:/C:/Users/Admin/Desktop/ArduSpeek_Arm/processing/lib/gram";
 
 // Voce variables
 String s;
