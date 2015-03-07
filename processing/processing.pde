@@ -86,12 +86,12 @@ void draw(){
     }
     // Grab module
     if (s.equals("arm grab")) {
-      Output("[h:g]");
+      Output("h:g");
       Say("Grabbing object");
     }
     // Release module
     if (s.equals("arm release")) {
-      Output("[h:r]");
+      Output("h:r");
       Say("Releasing object");
     }
     // Rotate waist module
@@ -131,8 +131,8 @@ void draw(){
   }
 }
 
-void Output(String a) {
-  ardu.write(a);
+void Output(String o) {
+  ardu.write(o);
 }
 
 void Say(String a) {  
