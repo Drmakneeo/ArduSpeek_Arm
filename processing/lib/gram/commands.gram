@@ -1,0 +1,20 @@
+#JSGF V1.0;
+
+/**
+ * Grammar for robotic arm
+ */
+
+grammar commands;
+
+
+public <commands> = (<name> <command> | <number>);
+
+<name> = arm;
+
+<command> = (rotate | rotate <joint> | grab | release | move <direction> | quit | keyboard);
+
+<joint> = (waist | shoulder | elbow | wrist | hand);
+
+<direction> = (north | south | east | west | up | down);
+
+<number> = (zero | one | two | three | four | five | six | seven | eight | nine);
